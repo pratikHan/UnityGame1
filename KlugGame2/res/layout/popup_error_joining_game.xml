@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   
+   
+   
+      android:id="@+id/alertlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible" 
+   
+    android:gravity="center">
+    
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ERROR JOINING GAME"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/cancelbtn" 
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/cancelbtn"
+        android:gravity="center"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="150dp"/>
+    
+    <Button
+        android:id="@+id/retrybtn" 
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/cancelbtn"
+        android:background="@drawable/retrybtn"
+        android:gravity="center"
+        android:layout_marginTop="150dp"/>
+    
+</RelativeLayout>  

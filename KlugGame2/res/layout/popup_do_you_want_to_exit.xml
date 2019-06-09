@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   
+   
+   
+      android:id="@+id/alertlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible" 
+   android:background="@drawable/exitbg"
+    android:gravity="center">
+    
+
+    <Button
+        android:id="@+id/btnno" 
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btnno"
+        android:gravity="center"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="150dp"/>
+    
+    <Button
+        android:id="@+id/btnyes" 
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/btnno"
+        android:background="@drawable/btnyes"
+        android:gravity="center"
+        android:layout_marginTop="150dp"/>
+    
+</RelativeLayout>  
